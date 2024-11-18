@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kalkulator Sederhana</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body
+    class="bg-gray-100 flex justify-center items-center min-h-screen transition-all duration-300"
+  >
+    <div
+      class="bg-white text-gray-800 p-8 rounded-lg shadow-lg w-80 transition-all duration-300"
+    >
+      <h2 class="text-center text-xl font-bold mb-4">Kalkulator Sederhana</h2>
+      <!-- Inputan angka pertama -->
+      <div class="mb-4">
+        <label for="angka1" class="block text-sm font-medium"
+          >Masukkan angka pertama:</label
+        >
+        <input
+          type="number"
+          id="angka1"
+          class="w-full p-2 border border-gray-300 rounded mt-1"
+          placeholder="Angka pertama"
+        />
+      </div>
+
+      <!-- Inputan angka kedua -->
+      <div class="mb-4">
+        <label for="angka2" class="block text-sm font-medium"
+          >Masukkan angka kedua:</label
+        >
+        <input
+          type="number"
+          id="angka2"
+          class="w-full p-2 border border-gray-300 rounded mt-1"
+          placeholder="Angka kedua"
+        />
+      </div>
+
+      <!-- Tombol Operator -->
+      <div class="flex gap-4 justify-between mb-4">
+        <button
+          onclick="penjumlahan()"
+          class="w-1/4 bg-blue-500 text-white p-2 rounded hover:bg-blue-600 transition duration-200"
+        >
+          +
+        </button>
+        <button
+          onclick="pengurangan()"
+          class="w-1/4 bg-blue-500 text-white p-2 rounded hover:bg-blue-600 transition duration-200"
+        >
+          -
+        </button>
+        <button
+          onclick="perkalian()"
+          class="w-1/4 bg-blue-500 text-white p-2 rounded hover:bg-blue-600 transition duration-200"
+        >
+          *
+        </button>
+        <button
+          onclick="pembagian()"
+          class="w-1/4 bg-blue-500 text-white p-2 rounded hover:bg-blue-600 transition duration-200"
+        >
+          /
+        </button>
+      </div>
+
+      <!-- Tombol Clear -->
+      <div class="text-center mb-4">
+        <button
+          onclick="clearInput()"
+          class="bg-gray-400 text-white p-2 rounded hover:bg-gray-500 transition duration-200"
+        >
+          Clear
+        </button>
+      </div>
+
+      <div class="text-center mt-4">
+        <p id="hasil" class="font-semibold text-xl">Hasil:</p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
