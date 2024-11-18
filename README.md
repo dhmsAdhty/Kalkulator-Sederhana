@@ -18,3 +18,24 @@ Untuk menjalankan aplikasi ini, Anda hanya perlu mengunduh atau mengkloning repo
 1. Clone repositori ini:
    ```bash
    git clone https://github.com/dhmsAdhty/Kalkulator-Sederhana.git
+2. Buka file kalkulator.html menggunakan browser.
+
+---
+### Contoh Penggunaan 👨‍💻👩‍💻
+
+    Masukkan angka pada dua kolom input. 🔢
+    Pilih operator yang diinginkan (+, -, *, /). ➕➖✖️➗
+    Tekan tombol untuk melihat hasilnya. 🎯
+    Klik tombol "Clear" untuk menghapus input dan hasil. 🧹
+
+### Screenshot 📸
+
+### Kontribusi 💪
+
+Jika Anda ingin berkontribusi pada proyek ini, silakan buat pull request. Kami menerima kontribusi dalam bentuk perbaikan bug, penambahan fitur baru, atau peningkatan dokumentasi. 🙌
+Cara berkontribusi:
+
+    Fork repositori ini. 🍴
+    Buat cabang untuk fitur baru atau perbaikan bug. 🌱
+    Lakukan perubahan dan kirim pull request. 📨
+
