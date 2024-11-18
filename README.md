@@ -29,6 +29,8 @@ Untuk menjalankan aplikasi ini, Anda hanya perlu mengunduh atau mengkloning repo
     Klik tombol "Clear" untuk menghapus input dan hasil. 🧹
 
 ### Screenshot 📸
+![Calculator Screenshot](https://raw.githubusercontent.com/dhmsAdhty/Kalkulator-Sederhana/master/Image/Index.jpg)
+
 
 ### Kontribusi 💪
 
